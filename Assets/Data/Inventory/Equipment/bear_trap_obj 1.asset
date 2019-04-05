@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551182b8b551b144a8e89e0cf9ab2c19, type: 3}
+  m_Name: bear_trap_obj 1
+  m_EditorClassIdentifier: 
+  ui_info:
+    itemName: Bear Trap
+    itemDescription: trap
+    skillDescription: yes
+    icon: {fileID: 21300000, guid: 5381f1d9e1d1c784da8f0c1fec0ea227, type: 3}
+  modelPrefab: {fileID: 6666115698331026819, guid: 32c7f83e14697c749b7378ca98b37cfb,
+    type: 3}
+  actions:
+  - input: 2
+    action:
+      actionType: 3
+      action_obj: {fileID: 0}
+  position: {fileID: 11400000, guid: 2791f70b3f2c4b44cac9465bd89b7947, type: 2}

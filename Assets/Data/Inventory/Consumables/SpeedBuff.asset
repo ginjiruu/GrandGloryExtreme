@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf8d4876a8e96e9499efbe0973b97d56, type: 3}
+  m_Name: SpeedBuff
+  m_EditorClassIdentifier: 
+  ui_info:
+    itemName: Speed Potion
+    itemDescription: 
+    skillDescription: 
+    icon: {fileID: 21300000, guid: f717839db2efc5f458adf3158d3e3102, type: 3}
+  modelPrefab: {fileID: 4129207996910271844, guid: f907019fe1e4af64484512628e4c54f2,
+    type: 3}
+  actions:
+  - input: 6
+    action:
+      actionType: 1
+      action_obj: {fileID: 11400000, guid: ae7ae8feaf5cd164fa315f7318614522, type: 2}
+  position: {fileID: 11400000, guid: 2d748ba93eec7cd47b7ea68969a3809b, type: 2}
+  uses: 5

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf8d4876a8e96e9499efbe0973b97d56, type: 3}
+  m_Name: Item Buff
+  m_EditorClassIdentifier: 
+  ui_info:
+    itemName: ThiccStick
+    itemDescription: 
+    skillDescription: 
+    icon: {fileID: 21300000, guid: 1bebabfe8c3917f40a97e0a650061ef0, type: 3}
+  modelPrefab: {fileID: 100000, guid: 4d81503c42aa2dd4ea805b9b368b56b3, type: 3}
+  actions:
+  - input: 6
+    action:
+      actionType: 1
+      action_obj: {fileID: 11400000, guid: 1047768a8ee13d644a7d695a931ea357, type: 2}
+  position: {fileID: 11400000, guid: 2d748ba93eec7cd47b7ea68969a3809b, type: 2}
+  uses: 2

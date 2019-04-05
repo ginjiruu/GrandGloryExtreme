@@ -1,0 +1,647 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66ab67005225c04e98f70452ca48165, type: 3}
+  m_Name: KeyBindings
+  m_EditorClassIdentifier: 
+  inputs:
+  - Name: 1Vertical
+    UniqueName: 
+    Type: 2
+    Positive:
+      Primary: 119
+      Secondary: 273
+    Negative:
+      Primary: 115
+      Secondary: 274
+    targetController: 1
+    Axis: 1
+    Invert: 1
+    Sensitivity: 1
+    val: 0
+  - Name: 2Vertical
+    UniqueName: 
+    Type: 2
+    Positive:
+      Primary: 119
+      Secondary: 273
+    Negative:
+      Primary: 115
+      Secondary: 274
+    targetController: 2
+    Axis: 1
+    Invert: 1
+    Sensitivity: 1
+    val: 0
+  - Name: 3Vertical
+    UniqueName: 
+    Type: 2
+    Positive:
+      Primary: 119
+      Secondary: 273
+    Negative:
+      Primary: 115
+      Secondary: 274
+    targetController: 3
+    Axis: 1
+    Invert: 1
+    Sensitivity: 1
+    val: 0
+  - Name: 4Vertical
+    UniqueName: 
+    Type: 2
+    Positive:
+      Primary: 119
+      Secondary: 273
+    Negative:
+      Primary: 115
+      Secondary: 274
+    targetController: 4
+    Axis: 1
+    Invert: 1
+    Sensitivity: 1
+    val: 0
+  - Name: 1Horizontal
+    UniqueName: 
+    Type: 2
+    Positive:
+      Primary: 100
+      Secondary: 275
+    Negative:
+      Primary: 97
+      Secondary: 276
+    targetController: 1
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 2Horizontal
+    UniqueName: 
+    Type: 2
+    Positive:
+      Primary: 100
+      Secondary: 275
+    Negative:
+      Primary: 97
+      Secondary: 276
+    targetController: 2
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 3Horizontal
+    UniqueName: 
+    Type: 2
+    Positive:
+      Primary: 100
+      Secondary: 275
+    Negative:
+      Primary: 97
+      Secondary: 276
+    targetController: 3
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 4Horizontal
+    UniqueName: 
+    Type: 2
+    Positive:
+      Primary: 100
+      Secondary: 275
+    Negative:
+      Primary: 97
+      Secondary: 276
+    targetController: 4
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 1LightAttack
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 355
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 1
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 2LightAttack
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 375
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 3LightAttack
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 395
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 4LightAttack
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 415
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 1HeavyAttack
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 354
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 2HeavyAttack
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 374
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 3HeavyAttack
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 394
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 4HeavyAttack
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 414
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 1Roll
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 350
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 2Roll
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 370
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 3Roll
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 390
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 4Roll
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 410
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 1Block
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 351
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 2Block
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 371
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 3Block
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 391
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 4Block
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 411
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 1TwoHand
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 358
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 2TwoHand
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 378
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 3TwoHand
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 398
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 4TwoHand
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 418
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 1Equipment
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 352
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 2Equipment
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 372
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 3Equipment
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 392
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 4Equipment
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 412
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 1Special
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 353
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 2Special
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 373
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 3Special
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 393
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 4Special
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 413
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: Interact
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 101
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: LockOn
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 325
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 1Accept
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 350
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 2Accept
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 370
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 3Accept
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 390
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 4Accept
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 410
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 5Horizontal
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 100
+      Secondary: 0
+    Negative:
+      Primary: 97
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 5Vertical
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 119
+      Secondary: 0
+    Negative:
+      Primary: 115
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  - Name: 5Accept
+    UniqueName: 
+    Type: 0
+    Positive:
+      Primary: 32
+      Secondary: 0
+    Negative:
+      Primary: 0
+      Secondary: 0
+    targetController: 0
+    Axis: 0
+    Invert: 0
+    Sensitivity: 1
+    val: 0
+  rebindRemoveKey: 27
+  forceResetInEditor: 1

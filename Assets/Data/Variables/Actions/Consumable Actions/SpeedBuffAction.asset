@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be17fe1dfed8d44a9d97bf2a8c57724, type: 3}
+  m_Name: SpeedBuffAction
+  m_EditorClassIdentifier: 
+  start_anim: {fileID: 11400000, guid: b68e7cb9fbe744340a156e3a74a037d1, type: 2}
+  changeSpeed: 0
+  leftHand: 0
+  animSpeed: 1
+  consumable: {fileID: 1994952348728627075, guid: 37ba4880c5c4a7b449bf1756a18d2ac8,
+    type: 3}

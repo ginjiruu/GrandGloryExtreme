@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1edf6bfd658ca3c4fa49fe853a438105, type: 3}
+  m_Name: Fireball
+  m_EditorClassIdentifier: 
+  ui_info:
+    itemName: Fireball
+    itemDescription: 
+    skillDescription: 
+    icon: {fileID: 21300000, guid: 469c525d4419e734b946644be316fa90, type: 3}
+  modelPrefab: {fileID: 4129207996910271844, guid: f907019fe1e4af64484512628e4c54f2,
+    type: 3}
+  actions:
+  - input: 3
+    action:
+      actionType: 2
+      action_obj: {fileID: 11400000, guid: af6b8c2891ee0e1458c774b51995e730, type: 2}
+  position: {fileID: 11400000, guid: 9550e4e082e0fc3459d1ee2c478538e2, type: 2}
